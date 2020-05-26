@@ -1,6 +1,6 @@
 # My burguer style menu
 
-#####  this is the style that I like the most in apps and websites, feel free to use it, just clone this repository and use avonde in your projects.
+#####  This is the style that I like the most in apps and websites, feel free to use it, just clone this repository and use avonde in your projects.
 
 ## Tools used:
 ###### HTML, CSS, JAVASCRIPT/JQUERY
