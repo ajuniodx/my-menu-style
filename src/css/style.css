@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto',sans-serif;
+}
+
+.navigation {
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+}
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-navigation {
+  color: #f8f8f2;
+  display: none;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  background: #282a36;
+}
+.main-navigation .main-nav {
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);  
+  width: 300px;
+}
+.main-navigation .main-nav li {
+  margin-bottom: 20px;
+  list-style: none;
+  transition: 0.5s ease;
+  padding: 1rem;
+}
+.main-navigation .main-nav a {
+  color: #f8f8f2;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.3s ease;
+}
+.main-navigation .main-nav li:hover {
+  background-color: #ff79c6;
+}
+.btn-container {
+  cursor: pointer;
+  z-index: 3;
+  margin: 3vh;
+}
+.bar-one, .bar-two, .bar-three {
+  width: 30px;
+  height: 3px;
+  background-color: #ff79c6;
+  margin: 6px 0;
+  transition: 0.5 ease-in;
+}
+.change .bar-one {
+  transform: rotate(-45deg) translate(-6px, 6px);
+  background-color: #ff79c6;
+}
+.change .bar-two {
+  opacity: 0;
+  background-color: #ff79c6;
+}
+.change .bar-three {
+  transform: rotate(45deg) translate(-6px, -7px);
+  background-color: #ff79c6;
+}
